@@ -10,7 +10,7 @@ let hoverOver = document.querySelectorAll('.nav-links');
 window.addEventListener('mousemove', anicursor);
 
 //this function takes the position of aniCursor(which selects the css class 'ani-cursor') and provides default positioning,
-//and tracking of mouse movement based on users movement. 
+//and tracking of mouse movement based on the users input. 
 function anicursor(e) {
     console.log(e);
 
